@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Karan Balaji – Product Manager (Cloud UX & CX)`,
-    description: `Cloud Engineer from Toronto,ON.`,
+    title: `Karan Balaji – Ux Designer/Engineer (Cloud UX & CX)`,
+    description: `Ux Engineer from Toronto,ON.`,
     siteUrl: `https://karanbalaji.com/`,
     author: `Karan Balaji`,
     socialLinks: {
