@@ -35,18 +35,18 @@ const ExamproPage = () => (
         <h1>ExamPro.co</h1>
         <h2>Project Summary</h2>
         <p>
-        Exampro.co is an e-learning company that provides fast and easy cloud training. I was assigned to improve their UX process that is related to UX research (Empathize) and had to improve the current user flows which required me to obtain relevant feedback and suggestions from customers. 
+        Exampro.co is an e-learning company that provides fast and easy cloud training. I was assigned to improve their <b>UX process</b> that is related to <b>UX research (Empathize)</b> and had to improve the current user flows which required me to obtain relevant feedback and suggestions from customers. 
         </p>
         <h2>Problem</h2>
-        <p>There was a disconnect between the customers and the team (developers, design and stakeholders). The team needed to better understand the user so that they can improve their experience before the user reaches support with frustration. Surveys and customer support are always a time consuming process for the customer. We require a quick and easy way for them to express themselves so that we can improve the UX process.</p>
+        <p>There was a <b>disconnect of information</b> between the <b>customers and the team</b> (developers, design and stakeholders). The team needed to better <b>understand the user</b> so that they can improve their experience before the user reaches support with frustration. Surveys and customer support are always a time consuming process for the customer. We require a <b>quick and easy</b> way for the users to <b>express themselves</b> so that we can <b>improve the UX process.</b></p>
 
         <h2>Solution</h2>
 
-        <p>The customers are also stakeholders so I obtained my research by creating a discord community for the users where they could publicly express and collaborate with other cloud learners, developers and ExamPro team. The users expressed directly about any issues or opinions and got into discussion with the ExamPro team. The users would also solve other user’s issues if they had faced it themselves. </p>
+        <p>The <b>customers are also stakeholders</b> so I obtained my research by creating a <a href='https://discord.gg/rTkejj4'>discord community</a> for the users where they could <b>publicly express and collaborate</b> with other cloud learners, developers and <b>ExamPro team</b>. The users expressed directly about any issues or opinions and got into discussion with the ExamPro team. The users would also solve other user’s issues if they had faced it themselves. </p>
         
         <h1>Achievements</h1>
         <ol>
-            <li>Identified over <b>250+ Ux issues/bugs</b> reported on Github with the help of the ExamPro community on discord. </li>
+            <li>Identified & reported over <b>250+ Ux issues/bugs</b> on Github with the help of the ExamPro community on discord and HotJar behaviour analytics. </li>
             <li>Obtained over <b>500+ users</b> on <a href='https://discord.gg/rTkejj4' target='blank'>ExamPro discord channel</a> who give constant feedback and report bugs they identify. <b>Rewarded users</b> as <b>community moderators</b> when they contributed. </li>
             <li><a href='https://github.com/ExamProCo/aws-xd-ui-kit' target='blank'>Over 20, stars on github</a> for creating an <b>aws ui components kit on adobe XD</b> (Followed by adobe employee)</li>
             <li><b>Over 1000 views for my first tech</b> talk about <a href='https://youtu.be/XlGw3iNBccc' target='blank'>A/B testing on AWS for UX Engineers (Youtube Link).</a></li>
