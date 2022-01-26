@@ -10,8 +10,8 @@ import "../components/pages.scss"
 import Logo from "../images/portfolios/socialed/logo.svg"
 import PersonaStudent from "../images/portfolios/exampro/personas/student.png"
 import PersonaWorker from "../images/portfolios/exampro/personas/working-professional.png"
-import Maslow from "../images/portfolios/socialed/maslow.png"
-import Sitemap from "../images/portfolios/socialed/flow.png"
+import Maslow from "../images/portfolios/exampro/personas/maslow.png"
+
 import Home from "../images/portfolios/socialed/screens/home.png"
 import Description from "../images/portfolios/socialed/screens/description.png"
 import Matchmaking from "../images/portfolios/socialed/screens/matchmaking.png"
@@ -82,7 +82,7 @@ const ExamproPage = () => (
         <figure className='white-bg'>
         <h1>1. Empathizing The User</h1>
         <p>After several interviews with some <b>personas</b> such as <b>students and professionals</b> we found that when it comes to learning, users remember the knowledge by <b>testing themselves by learning in groups, study partners and with experts</b>. This gives them confidence along with <b>long term knowledge</b> and a boost to complete their studies.</p>
-        <iframe title="Lonliness Video"  src="https://www.youtube.com/embed/VJbKXmujI00?start=98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Scientifically Proven Best Ways to Study Video"  src="https://www.youtube.com/embed/VJbKXmujI00?start=98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure>
 
         <figure className='white-bg'>
@@ -104,16 +104,16 @@ const ExamproPage = () => (
 
         <figure className='white-bg'>
         <h1>2. Defining Standpoint</h1>
-        <p>The standpoint is that we need to bridge the ExamPro team and the users <b>with a community.</b> The persona's goal is to learn and gain knowledge. To curate that <b>long term knowledge</b> we require the <b>users to have a stake</b> in discussion, contribution, learning and be able to test themselves with experts (ExamPro Team), other cloud learners and study groups. We understand that we need to <b>build and maintain a community of learners</b> where we can build that <b>long term knowledge.</b> </p>
+        <p>The standpoint is that we need to bridge the ExamPro team and the users <b>with a community.</b> The persona's goal is to learn and gain knowledge. But achieve that <b>long term knowledge</b> we require the <b>users to have a stake</b> in discussion, contribution, learning and be able to test themselves with experts (ExamPro Team), other cloud learners and study groups. We understand that we need to <b>build and maintain a community of learners</b> to enhance users for that <b>long term knowledge.</b> </p>
         </figure>
 
         <figure className='white-bg'>
         <h1>3. Ideate</h1>
         <ul>
-          <li>Users need to see where to find people to socialize in person. </li>
-          <li>Users must be able to socialize in groups or more.</li>
-          <li>Users must be able to find people other than their know circle.</li>
-          <li>There should be less virtual way of communication. Most of the information must delivered when people interact in person. (Bad ex : SnapChat Stories)</li>
+          <li>Users need a community to build the <b>long term knowledge</b> </li>
+          <li>Users must be able <b>test themselves to identify information gaps</b> with experts, study groups and ExamPro team </li>
+          <li>Users must feel <b>they belong to the product</b> they are using and confess to the ExamPro team for any improvements</li>
+          
 
         </ul>
         </figure>
@@ -124,32 +124,16 @@ const ExamproPage = () => (
           <img className="img-shadow" src={Maslow} alt="Functionality Based on Maslow"/>
         </figure>
 
-        <figure className='white-bg' style={{textAlign:"center"}}>
-        <h1>Ideating User Flow</h1>
-        
-          <img className="img-shadow" src={Sitemap} alt="Functionality Based on Maslow"/>
-        </figure>
-
         <figure className='white-bg'>
         <h1>4. Prototype</h1>
-        <p>In this stage we quickly used paper prototypes to quickly identify the flow & then procedded to high fidelity prototype using Adobe XD</p>
-        </figure>
-
-        <figure>
-        <img className="img-shadow" src={Home} alt="Home Screen"/>
-        </figure>
+        <p>In this stage i improved several UI's that were reported by the users on discord community while they were on their study journey. I indentified the flow & then procedded to high fidelity prototype using Adobe XD</p>
+        <iframe title="Demo of ExamPro webapp"  src="https://www.youtube.com/embed/CLR8Mbh7kaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
-        <figure>
-        <img className="img-shadow" src={Places} alt="Places Screen"/>
         </figure>
-
-        <figure>
-          <img className="img-shadow" src={Description} alt="Description Screen"/>
-        </figure>
-          
-        <figure>
-          <img className="img-shadow" src={Matchmaking} alt="Matchmaking Screen"/>
-        </figure>
+    
+       
+        
+        
 
         <figure className="white-bg" style={{textAlign:"center"}}>
         <h1>5. Testing</h1>
