@@ -39,7 +39,7 @@ const IndexPage = () => (
             </h3>
 						
 						<p style={{textAlign:"left"}}>My name is<span className="aside__important-text"> Karan Balaji</span> and I'm a global citizen <h1 className="aside__h1"> based in Toronto</h1>. I'm a <h1 className="aside__h1"> UX designer,  UX engineer & a certified AWS Solution Architect</h1> </p>
-						<p style={{textAlign:"left"}}>I design the touchpoints for the user & customer. I bridge the gap between design and developers by working throught the UX process and i can make rapid prototypes using tools like  <h1 className="aside__h1">Figma, Adobe XD, HTML, CSS, JS ES6 and document it on Git & Github. with popular design systems like Material Design & Amplify UI</h1><button>Test</button> </p>
+						<p style={{textAlign:"left"}}>I design the touchpoints for the user & customer. I bridge the gap between design and developers by working throughout the UX process and i can make rapid prototypes using tools like  <h1 className="aside__h1">Figma, Adobe XD, HTML, CSS, JS ES6 with popular design systems like Material Design & Amplify UI and document it on Git & Github</h1><button>Test</button> </p>
 						<p style={{textAlign:"left"}}>In this portfolio, I showcase every project that I made through <h1 className="aside__h1">design thinking</h1> with simple and sensational User Interface.</p>  <h1 className="aside__h1"></h1>    <h1 className="aside__h1"></h1>
 						<p style={{textAlign:"left"}}>You can reach me at <a className="aside__contact-link" href="mailto:karanarjunb@gmail.com">karanarjunb@gmail.com </a> for any project that you might have in mind.</p>
 						
