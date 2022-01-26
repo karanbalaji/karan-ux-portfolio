@@ -8,7 +8,8 @@ import SEO from "../components/seo"
 
 import "../components/pages.scss"
 import Logo from "../images/portfolios/socialed/logo.svg"
-import Persona from "../images/portfolios/socialed/persona-student.png"
+import PersonaStudent from "../images/portfolios/exampro/personas/student.png"
+import PersonaWorker from "../images/portfolios/exampro/personas/working-professional.png"
 import Maslow from "../images/portfolios/socialed/maslow.png"
 import Sitemap from "../images/portfolios/socialed/flow.png"
 import Home from "../images/portfolios/socialed/screens/home.png"
@@ -80,7 +81,7 @@ const ExamproPage = () => (
 
         <figure className='white-bg'>
         <h1>1. Empathizing The User</h1>
-        <p>After several interviews with some <b>personas</b> such as <b>students and professionals</b> we found that when it comes to learning, users remember the knowledge by <b>testing themselves by learning in groups, study partners and with experts</b>. This gives them a confidence along with <b>long term knowledge</b> and a boost to complete their studies.</p>
+        <p>After several interviews with some <b>personas</b> such as <b>students and professionals</b> we found that when it comes to learning, users remember the knowledge by <b>testing themselves by learning in groups, study partners and with experts</b>. This gives them confidence along with <b>long term knowledge</b> and a boost to complete their studies.</p>
         <iframe title="Lonliness Video"  src="https://www.youtube.com/embed/VJbKXmujI00?start=98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure>
 
@@ -95,12 +96,15 @@ const ExamproPage = () => (
         </figure>
 
         <figure>
-          <img className="img-shadow" src={Persona} alt="Persona Template"/>
+          <img className="img-shadow" src={PersonaStudent} alt="Student Persona image"/>
+        </figure>
+        <figure>
+        <img className="img-shadow" src={PersonaWorker} alt="Worker Persona image"/>
         </figure>
 
         <figure className='white-bg'>
         <h1>2. Defining Standpoint</h1>
-        <p>The standpoint is to bring back the users to feel that they can quickly get to meet people in groups without excessive initiating interaction like a messenger technology. They must be able to go and quickly interact with other people comfortably by doing activities like bowling, pool bar, darts etc which will make them feel bonded.</p>
+        <p>The standpoint is that we need to bridge the ExamPro team and the users <b>with a community.</b> The persona's goal is to learn and gain knowledge. To curate that <b>long term knowledge</b> we require the <b>users to have a stake</b> in discussion, contribution, learning and be able to test themselves with experts (ExamPro Team), other cloud learners and study groups. We understand that we need to <b>build and maintain a community of learners</b> where we can build that <b>long term knowledge.</b> </p>
         </figure>
 
         <figure className='white-bg'>
