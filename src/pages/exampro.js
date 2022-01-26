@@ -38,11 +38,20 @@ const ExamproPage = () => (
         Exampro.co is an e-learning company that provides fast and easy cloud training. I was assigned to improve their UX process that is related to UX research (Empathize) and had to improve the current user flows which required me to obtain relevant feedback and suggestions from customers. 
         </p>
         <h2>Problem</h2>
-        <p>People engage less in social activities because their social circle are unavaiable. This is because of the modern lifestyle which focuses on the individuality where they travel often or move to a new location frequently.</p>
+        <p>There was a disconnect between the customers and the team (developers, design and stakeholders). The team needed to better understand the user so that they can improve their experience before the user reaches support with frustration. Surveys and customer support are always a time consuming process for the customer. We require a quick and easy way for them to express themselves so that we can improve the UX process.</p>
 
         <h2>Solution</h2>
 
-        <p>I made a mobile app for people who want to quickly meet and build the social circle based on activities such as games (Bowling, Snooker. etc).</p>
+        <p>The customers are also stakeholders so I obtained my research by creating a discord community for the users where they could publicly express and collaborate with other cloud learners, developers and ExamPro team. The users expressed directly about any issues or opinions and got into discussion with the ExamPro team. The users would also solve other user’s issues if they had faced it themselves. </p>
+        
+        <h1>Achievements</h1>
+        <ol>
+            <li>Identified over <b>250+ Ux issues/bugs</b> reported on Github with the help of the ExamPro community on discord. </li>
+            <li>Obtained over <b>500+ users</b> on <a href='https://discord.gg/rTkejj4' target='blank'>ExamPro discord channel</a> who give constant feedback and report bugs they identify. <b>Rewarded users</b> as <b>community moderators</b> when they contributed. </li>
+            <li><a href='https://github.com/ExamProCo/aws-xd-ui-kit' target='blank'>Over 20, stars on github</a> for creating an <b>aws ui components kit on adobe XD</b> (Followed by adobe employee)</li>
+            <li><b>Over 1000 views for my first tech</b> talk about <a href='https://youtu.be/XlGw3iNBccc' target='blank'>A/B testing on AWS for UX Engineers (Youtube Link).</a></li>
+            <li>Experience manager for over <b>800 users</b> that joined for <a href='https://www.linkedin.com/groups/13884435/' target="blank">#100daysofcloud LinkedIN group</a> which drastically improved the course completion rate (KPI) and resulted in more engagement.</li>
+        </ol>
         
         <h1>Project Scope</h1>
         <ol>
