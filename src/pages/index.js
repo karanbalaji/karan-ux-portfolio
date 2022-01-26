@@ -56,6 +56,16 @@ const IndexPage = () => (
 					
 						<section className="gallery">
 						 
+						<AniLink cover bg="#333" to="/exampro/" direction="left" title="ExamPro.co">
+								<div className="parent">
+									<div className="child bg-socialed">
+										<h2 className="gallery__title">ExamPro.co</h2>
+									</div>
+									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
+									 Improving UX process using design thinking</p>
+								</div>
+						</AniLink>
+
 						  <AniLink cover bg="#333" to="/socialed/" direction="left" title="socialed">
 								<div className="parent">
 									<div className="child bg-socialed">
