@@ -7,16 +7,10 @@ import SEO from "../components/seo"
 
 
 import "../components/pages.scss"
-import Logo from "../images/portfolios/socialed/logo.svg"
+import Logo from "../images/portfolios/exampro/logo.svg"
 import PersonaStudent from "../images/portfolios/exampro/personas/student.png"
 import PersonaWorker from "../images/portfolios/exampro/personas/working-professional.png"
 import Maslow from "../images/portfolios/exampro/personas/maslow.png"
-
-import Home from "../images/portfolios/socialed/screens/home.png"
-import Description from "../images/portfolios/socialed/screens/description.png"
-import Matchmaking from "../images/portfolios/socialed/screens/matchmaking.png"
-import Places from "../images/portfolios/socialed/screens/places.png"
-import Prototype from "../images/portfolios/socialed/video/new-tweetup.mp4"
 
 
 //import Link from 'gatsby-plugin-transition-link'
