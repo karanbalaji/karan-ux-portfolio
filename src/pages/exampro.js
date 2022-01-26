@@ -126,30 +126,20 @@ const ExamproPage = () => (
 
         <figure className='white-bg'>
         <h1>4. Prototype</h1>
-        <p>In this stage i improved several UI's that were reported by the users on discord community while they were on their study journey. I indentified the flow & then procedded to high fidelity prototype using Adobe XD</p>
-        <iframe title="Demo of ExamPro webapp"  src="https://www.youtube.com/embed/CLR8Mbh7kaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>In this stage i improved several UI's that were reported by the users on discord community while they were on their study journey. I then procedded to make fixes of certain UI using Adobe XD</p>
+        <iframe title="Demo of ExamPro Platform"  src="https://www.youtube.com/embed/CLR8Mbh7kaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         </figure>
-    
-       
-        
-        
-
-        <figure className="white-bg" style={{textAlign:"center"}}>
+   
+        <figure className="white-bg">
         <h1>5. Testing</h1>
-        <p>Adobe XD Flow Preview</p>
-        <p>You can play the video below or you can <a href='https://xd.adobe.com/view/4c46791d-eb46-4117-62f5-36d6a8c54d7a-3a77/' target='blank'>Interact with the prototype</a></p>
-          <video className="img-shadow " src={Prototype}  autoplay="" loop="" alt="Prototype Video" controls />
-        </figure>
-
-        <figure className='white-bg'>
-        <h1>Testing Learning Outcomes</h1>
+        <p>We used <a href='https://www.hotjar.com/' target="blank">HotJar behaviour analytics</a> to test the UI improvements to understand how users behave on your site</p>
         <ul>
-          <li>Users need to see where to find people to socialize in person. </li>
-          <li>Users must be able to socialize in groups or more.</li>
-          <li>Users must be able to find people other than their know circle.</li>
-          <li>There should be less virtual way of communication. Most of the information must delivered when people interact in person. (Bad ex : SnapChat Stories)</li>
-
+            <li>HotJar analytics enables us to see how the user found problems that were reported on discord</li>
+          <li>Identified UI issues for different devices that were related to CSS breakpoints for several pages</li>
+          <li>Resolved registration issues on mobile vs web</li>
+          <li>Identified several 500 and 404 error</li>
+          <li>Reported certain flows where users bounced off too much on page</li>
         </ul>
         </figure>
 
