@@ -31,11 +31,11 @@ const StaticPage = () => (
           <p>This project is about hosting the website with lowest cost and highest availability. </p>
          
         <h2>Problem</h2>
-        <p>Users want the portfolio website to load fast and be available at all times where pricing plays a role to deliver this. </p>
+        <p>Users want the portfolio website to load fast and be available at all times </p>
        
         <h2>Solution</h2>
         <p>
-        Using AWSDevloped the portfolio with Gatsby.js which is stored on AWS S3 Buckect. Used Route53 to configure custom domain attained from freenom.com . Configured CloudFront as CDN to distribute the content from S3 so that users don't access my s3 link directly. Finally, verifying the website to get a free SSL Certificate from Amazon Certificate Manager
+        I devloped this portfolio with Gatsby.js and the build is deployed on an AWS S3 Buckect. Used Route53 to configure and buy a custom domain. Configured CloudFront as CDN to distribute the content from S3 so that users don't access my s3 link directly. Finally, verifying the website to get a free SSL Certificate from Amazon Certificate Manager.
         </p>
 
       </section>

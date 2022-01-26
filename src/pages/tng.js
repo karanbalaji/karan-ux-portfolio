@@ -55,7 +55,7 @@ const TngPage = () => (
         engages the skills and talents of our neighbours to build a vibrant community. 
         </p>
         <h2>Problem</h2>
-        <p>Users could not find the information they are looking for. Because of this there was very less engagement and not much returining users to the website</p>
+        <p>Users could not find the information they are looking for. There was very less engagement and user retention is very less</p>
         <h2>The Team</h2>
         <p>Krystal, Siddanth, Sonia, Lucas, Mjola and Karan</p>
         <h2>Solution</h2>

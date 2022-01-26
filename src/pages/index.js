@@ -21,7 +21,7 @@ import TextLoop from "react-text-loop"
 
 const IndexPage = () => (
 	<Layout>
-		<SEO title="Portfolio" keywords={[`gatsby`, `application`, `react`]} />
+		<SEO title="Portfolio" keywords={[`UX Designer`, `Ux design portfolio`, `UX portfolio`]} />
 
 		{
 
@@ -30,19 +30,19 @@ const IndexPage = () => (
 		
 					<Img  />
 						
-					<h3>
+					<h2 style={{justifySelf:'center', textAlign:"center", fontWeight:300}}>
                 <TextLoop springConfig={{ stiffness: 180, damping: 12, fade: true }}>
                     <span>Welcome</span>
                     <span>Bienvenue</span>
                     <span>வணக்கம்</span>
                 </TextLoop>
-            </h3>
-						
+            </h2>
+			
 						<p style={{textAlign:"left"}}>My name is<span className="aside__important-text"> Karan Balaji</span> and I'm a global citizen <h1 className="aside__h1"> based in Toronto</h1>. I'm a <h1 className="aside__h1"> UX designer,  UX engineer & a certified AWS Solution Architect</h1> </p>
-						<p style={{textAlign:"left"}}>I design the touchpoints for the user & customer. I bridge the gap between design and developers by working throughout the UX process and i can make rapid prototypes using tools like  <h1 className="aside__h1">Figma, Adobe XD, HTML, CSS, JS ES6 with popular design systems like Material Design & Amplify UI and document it on Git & Github</h1><button>Test</button> </p>
+						<p style={{textAlign:"left"}}>I design the touchpoints for the user & customer. I bridge the gap between design and developers by working throughout the UX process and i can make rapid prototypes using tools like  <h1 className="aside__h1">Figma, Adobe XD, HTML, CSS, JS ES6 with popular design systems like Material Design & Amplify UI and document it on Git & Github</h1></p>
 						<p style={{textAlign:"left"}}>In this portfolio, I showcase every project that I made through <h1 className="aside__h1">design thinking</h1> with simple and sensational User Interface.</p>  <h1 className="aside__h1"></h1>    <h1 className="aside__h1"></h1>
 						<p style={{textAlign:"left"}}>You can reach me at <a className="aside__contact-link" href="mailto:karanarjunb@gmail.com">karanarjunb@gmail.com </a> for any project that you might have in mind.</p>
-						
+						<p style={{textAlign:"left"}}>Watch my tech talk about <a href='https://www.youtube.com/watch?v=XlGw3iNBccc&ab_channel=ExamPro'target="blank">A/B testing on AWS</a> for UX engineers</p>
 						<div className="aside__social-icons">
 							<a className="linkedin-icon" href="https://www.linkedin.com/in/karanbalaji/" target="_blank" rel="nofollow noopener noreferrer" title="LinkedIn"><LinkedinIcon /></a>
 							<a className="email-icon" href="mailto:karanarjunb@gmail.com" title="Send Email"><EmailIcon /></a>
@@ -58,11 +58,11 @@ const IndexPage = () => (
 						 
 						<AniLink cover bg="#333" to="/exampro/" direction="left" title="ExamPro.co">
 								<div className="parent">
-									<div className="child bg-socialed">
+									<div className="child bg-exampro">
 										<h2 className="gallery__title">ExamPro.co</h2>
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
-									 Improving UX process using design thinking</p>
+									 Improving ExamPro.co UX process using design thinking</p>
 								</div>
 						</AniLink>
 
@@ -72,7 +72,7 @@ const IndexPage = () => (
 										<h2 className="gallery__title">Tweetup</h2>
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
-									 Tweetup.io a meeting app built using design thinking process</p>
+									 Tweetup.io is a meeting app built using design thinking process</p>
 								</div>
 						</AniLink> 
 

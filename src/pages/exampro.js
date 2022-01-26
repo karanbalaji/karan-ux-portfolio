@@ -151,9 +151,9 @@ const ExamproPage = () => (
             </div>
           </AniLink>
 
-          <AniLink cover bg="#283048" to="/centennial-experience/">
+          <AniLink cover bg="#283048" to="/socialed/">
             <div className="parent">
-              <div className="child bg-centennial"><h2>Next <span>&raquo;</span></h2></div>
+              <div className="child bg-socialed"><h2>Next <span>&raquo;</span></h2></div>
             </div>
           </AniLink>
 
