@@ -59,6 +59,7 @@ const IndexPage = () => (
 						<div className="aside__social-icons">
 							<a className="linkedin-icon" href="https://www.linkedin.com/in/karanbalaji/" target="_blank" rel="nofollow noopener noreferrer" title="LinkedIn"><LinkedinIcon /></a>
 							<a className="email-icon" href="mailto:karanarjunb@gmail.com" title="Send Email"><EmailIcon /></a>
+							
 						</div>
 						
 		

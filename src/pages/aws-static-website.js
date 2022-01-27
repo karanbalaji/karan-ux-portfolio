@@ -14,6 +14,9 @@ import Architect from "../images/portfolios/aws-static/architect.png"
 //import Link from 'gatsby-plugin-transition-link'
 //import TransitionLink from 'gatsby-plugin-transition-link'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+// Github announcement component
+import Announcement from 'react-announcement'
+import Github from '..//images/svg-icons/github.png'
 
 
 const StaticPage = () => (
@@ -21,7 +24,14 @@ const StaticPage = () => (
     <SEO title="AWS Static Website | Gatsby | React" />
     
     <main className="project">
-
+    <Announcement
+          title="View this project and kanban board on Github"
+          subtitle="You can view all the upcoming features and updates on Github."
+          link="https://github.com/karanbalaji/karan-ux-portfolio"
+          secondsBeforeBannerShows={2}
+		  imageSource={Github}
+		  daysToLive={0}
+     				 />
       <section className="project__description">
       
 
