@@ -14,6 +14,9 @@ import LinkedinIcon from "../images/svg-icons/linkedin.svg?name=LinkedinIcon";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 // Text looping 
 import TextLoop from "react-text-loop"
+// Announcement for this page
+import Announcement from 'react-announcement'
+import Youtube from '../images/svg-icons/youtube.png'
 
 
 
@@ -26,6 +29,15 @@ const IndexPage = () => (
 		{
 
 				<main className="index__inner-wrapper">
+					<Announcement
+          title="Watch my tech talk about A/B testing on AWS for UX engineers"
+          subtitle="4 ways to do A/B testing using AWS."
+          link="https://youtu.be/XlGw3iNBccc"
+          secondsBeforeBannerShows={5}
+		  imageSource={Youtube}
+		  daysToLive={0}
+     				 />
+					
 					<aside className="aside">
 		
 					<Img  />
@@ -42,7 +54,6 @@ const IndexPage = () => (
 						<p style={{textAlign:"left"}}>I bridge the gap between design and developers by working throughout the UX process and can make rapid prototypes with <h1 className="aside__h1">Figma, Adobe XD, HTML, CSS, JS with popular design systems like Material Design & Amplify UI and document it on Git & <a href='https://github.com/karanbalaji'target="blank">Github</a></h1></p>
 						<p style={{textAlign:"left"}}>Watch my tech talk about <a href='https://www.youtube.com/watch?v=XlGw3iNBccc&ab_channel=ExamPro'target="blank">A/B testing on AWS</a> for UX engineers</p>
 						<p style={{textAlign:"left"}}>In this portfolio which is built on Gatsby.js, I showcase every project with various methodologies such as <h1 className="aside__h1">design thinking</h1> using simple and sensational User Interface.</p>  <h1 className="aside__h1"></h1>    <h1 className="aside__h1"></h1>
-						
 						<p style={{textAlign:"left"}}>For professional inquiries <a className="aside__contact-link" href="mailto:karanarjunb@gmail.com">karanarjunb@gmail.com </a></p>
 						
 						<div className="aside__social-icons">
@@ -114,7 +125,7 @@ const IndexPage = () => (
 						</section>
 
 					</article>
-
+					
 				</main>
 
 		}
