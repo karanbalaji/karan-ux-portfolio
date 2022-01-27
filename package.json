@@ -1,62 +1,61 @@
 {
-  "name": "gatsby-starter-default",
-  "private": false,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Karan Balaji",
-  "dependencies": {
-    "confetti-js": "0.0.14",
-    "gatsby": "^2.19.18",
-    "gatsby-image": "^2.0.29",
-    "gatsby-plugin-crisp-chat": "^3.2.2",
-    "gatsby-plugin-google-analytics": "^2.0.20",
-    "gatsby-plugin-hotjar": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.0.18",
-    "gatsby-plugin-netlify": "^2.0.11",
-    "gatsby-plugin-offline": "^2.0.24",
-    "gatsby-plugin-react-helmet": "^3.0.6",
-    "gatsby-plugin-react-svg": "^2.0.0-beta1",
-    "gatsby-plugin-s3": "^0.3.3",
-    "gatsby-plugin-sass": "^2.0.10",
-    "gatsby-plugin-sharp": "2.2.12",
-    "gatsby-plugin-sitemap": "^2.0.6",
-    "gatsby-plugin-transition-link": "^1.5.1",
-    "gatsby-source-filesystem": "^2.2.2",
-    "gatsby-transformer-sharp": "^2.1.14",
-    "gsap": "^2.1.2",
-    "node-sass": "^4.13.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-ga": "^2.7.0",
-    "react-helmet": "^5.2.0",
-    "react-text-loop": "^2.0.2",
-    "sharp": "^0.25.1",
-    "typeface-roboto": "0.0.54",
-    "video-react": "^0.13.7"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "react-scripts test --env=jsdom",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "deploy-aws": "gatsby-plugin-s3 deploy",
-    "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/karanbalaji/karan-ux-portfolio"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+    "name": "gatsby-starter-default",
+    "private": false,
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "version": "0.1.0",
+    "author": "Karan Balaji",
+    "dependencies": {
+        "confetti-js": "0.0.14",
+        "gatsby": "^2.19.18",
+        "gatsby-image": "^2.0.29",
+        "gatsby-plugin-crisp-chat": "^3.2.2",
+        "gatsby-plugin-google-analytics": "^2.0.20",
+        "gatsby-plugin-manifest": "^2.0.18",
+        "gatsby-plugin-netlify": "^2.0.11",
+        "gatsby-plugin-offline": "^2.0.24",
+        "gatsby-plugin-react-helmet": "^3.0.6",
+        "gatsby-plugin-react-svg": "^2.0.0-beta1",
+        "gatsby-plugin-s3": "^0.3.3",
+        "gatsby-plugin-sass": "^2.0.10",
+        "gatsby-plugin-sharp": "2.2.12",
+        "gatsby-plugin-sitemap": "^2.0.6",
+        "gatsby-plugin-transition-link": "^1.5.1",
+        "gatsby-source-filesystem": "^2.2.2",
+        "gatsby-transformer-sharp": "^2.1.14",
+        "gsap": "^2.1.2",
+        "node-sass": "^4.13.1",
+        "prop-types": "^15.7.2",
+        "react": "^16.8.2",
+        "react-dom": "^16.8.2",
+        "react-ga": "^2.7.0",
+        "react-helmet": "^5.2.0",
+        "react-text-loop": "^2.0.2",
+        "sharp": "^0.25.1",
+        "typeface-roboto": "0.0.54",
+        "video-react": "^0.13.7"
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "start": "npm run develop",
+        "serve": "gatsby serve",
+        "test": "react-scripts test --env=jsdom",
+        "deploy": "gatsby build && gh-pages -d public -b master",
+        "deploy-aws": "gatsby-plugin-s3 deploy",
+        "eject": "react-scripts eject"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/karanbalaji/karan-ux-portfolio"
+    },
+    "bugs": {
+        "url": "https://github.com/gatsbyjs/gatsby/issues"
+    },
+    "devDependencies": {
+        "gh-pages": "^2.0.1"
+    }
 }

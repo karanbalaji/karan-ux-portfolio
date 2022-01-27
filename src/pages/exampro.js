@@ -51,7 +51,7 @@ const ExamproPage = () => (
         
         <h2>My Role</h2>
         <ol>
-            <li>UX Designer (Personas, User flows, <a href='https://www.nngroup.com/articles/ten-usability-heuristics/' target="blank">10 Usability Heuristics</a>, User interviews)</li>
+            <li>UX Designer (<a href='https://lawsofux.com/' target="blank">UX laws</a>, Personas, User flows, <a href='https://www.nngroup.com/articles/ten-usability-heuristics/' target="blank">10 Usability Heuristics</a>, User interviews)</li>
             <li>UI Designer (Adobe XD, UI components, <a href='https://github.com/ExamProCo/aws-xd-ui-kit'target="blank">Open source AWS UI components kit)</a></li>
             <li>UX Engineer (HTML, CSS, JS, Github, and AWS A/B testing)</li>
         </ol>
@@ -105,7 +105,7 @@ const ExamproPage = () => (
         <figure className='white-bg'>
         <h1>3. Ideate</h1>
         <ul>
-          <li>Users need a community to build the <b>long term knowledge</b> </li>
+          <li>Users need a community to build the <b>long-term knowledge</b> </li>
           <li>Users must be able to <b>test themselves to identify information gaps</b> with experts, study groups, and the ExamPro team </li>
           <li>Users must feel <b>they belong to the product</b> they are using and confess to the ExamPro team for any improvements</li>
           
