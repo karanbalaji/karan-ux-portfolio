@@ -60,8 +60,8 @@ const ExamproPage = () => (
         <ol>
           <li>Empathizing The User</li>
           <li>Defining Standpoint</li>
-          <li>Ideate</li>
-          <li>Prototype</li>
+          <li>Ideating</li>
+          <li>Prototyping</li>
           <li>Testing Learning Outcomes</li>
         </ol>
       </section>
