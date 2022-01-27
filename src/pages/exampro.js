@@ -10,6 +10,7 @@ import "../components/pages.scss"
 import Logo from "../images/portfolios/exampro/logo.svg"
 import PersonaStudent from "../images/portfolios/exampro/personas/student.png"
 import PersonaWorker from "../images/portfolios/exampro/personas/working-professional.png"
+import AWStech from "../images/portfolios/exampro/awstech.png"
 import Maslow from "../images/portfolios/exampro/personas/maslow.png"
 
 
@@ -30,14 +31,14 @@ const ExamproPage = () => (
         <h1>ExamPro.co</h1>
         <h2>Project Summary</h2>
         <p>
-        Exampro.co is an e-learning company that provides fast and easy cloud training. I was assigned to improve their <b>UX process</b> that is related to <b>UX research (Empathize)</b> and had to <b>improve the current user flows</b> which required me to obtain relevant feedback and suggestions from customers. 
+        Exampro.co is an e-learning company that provides fast and easy cloud training. I was assigned to improve their <b>UX process</b> that is related to <b>UX research (Empathize)</b> and had to <b>improve the current user flows</b> 
         </p>
         <h2>Problem</h2>
-        <p>There was a <b>disconnect of information</b> between the <b>customers and the team</b> (developers, design and stakeholders). The team needed to better <b>understand the user</b> so that they can improve their experience before the user reaches support with frustration. Surveys and customer support are always a time consuming process for the customer. We require a <b>quick and easy</b> way for the users to <b>express themselves</b> so that we can <b>improve the UX process.</b></p>
+        <p>There was a <b>disconnect of information</b> between the <b>customers and the team</b> (developers, design and stakeholders). The team needed to better <b>understand the user</b> so that they can improve their experience</p>
 
         <h2>Solution</h2>
 
-        <p>The <b>customers are also stakeholders</b> so I obtained my research by creating a <a href='https://discord.gg/rTkejj4' target="blank">discord community</a> for the users where they could <b>publicly express and collaborate</b> with other cloud learners, developers and <b>ExamPro team</b>. The users expressed directly about any issues or opinions and got into discussion with the ExamPro team. The users would also solve other user’s issues if they had faced it themselves. </p>
+        <p>The <b>customers are also stakeholders</b> so I obtained my research by creating a <a href='https://discord.gg/rTkejj4' target="blank">discord community</a> for the users where they could <b>publicly express and collaborate</b> with other cloud learners, developers and <b>ExamPro team</b> </p>
         
         <h2>Achievements</h2>
         <ol>
@@ -98,7 +99,7 @@ const ExamproPage = () => (
 
         <figure className='white-bg'>
         <h1>2. Defining Standpoint</h1>
-        <p>The standpoint is that we need to bridge the ExamPro team and the users <b>with a community.</b> The persona's goal is to learn and gain knowledge. But achieve that <b>long term knowledge</b> we require the <b>users to have a stake</b> in discussion, contribution, learning and be able to test themselves with experts (ExamPro Team), other cloud learners and study groups. We understand that we need to <b>build and maintain a community of learners</b> to enhance users for that <b>long term knowledge.</b> </p>
+        <p>The standpoint is that we need to bridge the ExamPro team and the users <b>with a community.</b> The persona's goal is to learn and gain knowledge but to achieve that <b>long term knowledge</b> we require the <b>users to have a stake</b> in discussion, contribution, learning and be able to test themselves with experts (ExamPro Team), cloud learners and study groups. We understand that we need to <b>build and maintain a community of learners</b> to enhance users for that <b>long term knowledge.</b> </p>
         </figure>
 
         <figure className='white-bg'>
@@ -110,9 +111,9 @@ const ExamproPage = () => (
           
 
         </ul>
-        </figure>
+        
 
-        <figure className='white-bg'>
+        
         <h1>Ideating Relevant Functionality</h1>
         <p>Based on Maslow's Theory Of Hierarchy Need we organize user's need through each phase </p>
           <img className="img-shadow" src={Maslow} alt="Functionality Based on Maslow"/>
@@ -124,19 +125,29 @@ const ExamproPage = () => (
         <iframe title="Demo of ExamPro Platform"  src="https://www.youtube.com/embed/CLR8Mbh7kaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         </figure>
-   
+      
         <figure className="white-bg">
         <h1>5. Testing</h1>
-        <p>We used <a href='https://www.hotjar.com/' target="blank">HotJar behaviour analytics</a> to test the UI improvements to understand how users behave on your site</p>
+        <p>We used <a href='https://www.hotjar.com/' target="blank">HotJar behaviour analytics</a> to understand the user and conducted A/B testing using AWS.</p>
+        <iframe title="A/B Testing on AWS for UX Engineers"  src="https://www.youtube.com/embed/XlGw3iNBccc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <ul>
+        <li>Collaborated with developers on implementing A/B testing using lambda edge function. </li>
             <li>HotJar analytics enables us to see how the user found problems that were reported on discord</li>
           <li>Identified UI issues for different devices that were related to CSS breakpoints for several pages</li>
           <li>Resolved registration issues on mobile vs web</li>
-          <li>Identified several 500 and 404 error</li>
+         
           <li>Reported certain flows where users bounced off too much on page</li>
         </ul>
         </figure>
 
+        <figure className="white-bg">
+        <h1>Tech Talks and events</h1>  
+        <p>First AWS reInvent 2019 in Toronto <a href='https://www.linkedin.com/feed/update/urn:li:activity:6633923949883469825/'target="blank">(LinkedIn)</a></p>  
+        <img className="img-shadow" src={AWStech} alt="AWS Reinvent meetup"/>
+        </figure>
+        
+        
+        
        
 
       </article>

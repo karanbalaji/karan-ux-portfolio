@@ -19,9 +19,8 @@ const Header = ({ siteTitle }) => (
 			</div>
 			<nav className="header__nav">
 			<a href="https://blog.karanbalaji.com" className="header__nav-link" target="blank" rel="Blog">BLOG</a>
-			<a href="https://status.karanbalaji.com" className="header__nav-link" target="blank" rel="Help">STATUS</a>
 				<a href={Resume} className="header__nav-link" target="blank" rel="Resume Download" download>RESUME</a>
-				<a href="mailto:karanarjunb@gmail.com" className="header__nav-link">CONTACT</a>
+				<a href="mailto:karanarjunb@gmail.com" className="header__nav-link">EMAIL</a>
 				
 			</nav>
 		</div>
