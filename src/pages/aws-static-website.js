@@ -33,10 +33,16 @@ const StaticPage = () => (
         <h2>Problem</h2>
         <p>Users want the portfolio website to load fast and be available at all times </p>
        
-        <h2>Solution(<a href='https://github.com/karanbalaji/karan-ux-portfolio'target="blank">Github repo</a>)</h2>
-        <p>
-        I devloped this portfolio with Gatsby.js and the build is deployed on an AWS S3 Buckect. Used Route53 to configure and buy a custom domain. Configured CloudFront as CDN to distribute the content from S3 so that users don't access my s3 link directly. Finally, verifying the website to get a free SSL Certificate from Amazon Certificate Manager.
-        </p>
+        <h2>Solution</h2>
+        <ol>
+        <li>Used Route53 to configure and buy a custom domain.</li>
+        <li>Devloped this portfolio using Gatsby.js which is hosted on an AWS S3 Buckect</li>
+        <li>Configured CloudFront as CDN to distribute the content from the S3 bucket so that users don't access my S3 bucket link directly.</li>
+        <li>Finally, verifying the website to get a free SSL Certificate from Amazon Certificate Manager.</li>
+        </ol>
+
+        <h2>Github Repo</h2>
+        <p>This is my <a href='https://github.com/karanbalaji/karan-ux-portfolio'target="blank">Github repo</a> and <a href='https://github.com/karanbalaji/karan-ux-portfolio/projects/1'target="blank">Kanban board</a> for the portfolio project</p>
       </section>
       <article className="project__content">
 

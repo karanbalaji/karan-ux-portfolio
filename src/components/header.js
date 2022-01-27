@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
 		<div className="header__inner-container">
 			<div className="header__logo">
 				<AniLink paintDrip hex="#333" to="/" className="header__logo--link" title="Karan Balaji" style={{textDecoration:'none'}}>
-					<h1 style={{fontSize:'7rem', color:'white',fontWeight:400}}>K</h1>
+					<h1 style={{fontSize:'3rem', color:'white',fontWeight:400}}>KARAN BALAJI</h1>
 				</AniLink>
 			</div>
 			<nav className="header__nav">
