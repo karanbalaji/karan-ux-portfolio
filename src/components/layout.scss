@@ -17,7 +17,7 @@ html {
 
 body {
     font-family: $font-primary;
-    color: $color-grey-dark-2;
+    color: $color-primary-dark;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -49,7 +49,7 @@ h1 {
     //font-size: 3rem;
     //font-weight: 100;
     //color: #ffffff;
-    //line-height: 2;
+    line-height: 2.5;
     //text-transform: uppercase;
     //padding-left: 1rem;
 }
@@ -59,7 +59,7 @@ h2 {
     font-size: 3.5rem;
     font-weight: 300;
     //font-style: italic;
-    //line-height: 1;
+    line-height: 2.5;
     &--light {
         color: $color-grey-light-1;
     }
