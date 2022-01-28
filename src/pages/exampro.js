@@ -75,8 +75,8 @@ const ExamproPage = () => (
       
 
         <figure className='white-bg'>
-        <h1>1. Empathizing The User</h1>
-        <p>After several interviews with some <b>personas</b> such as <b>students and professionals</b> we found that when it comes to learning, users remember the knowledge by <b>testing themselves by learning in groups, study partners and with experts</b>. This gives them confidence along with <b>long-term knowledge</b> and a boost to complete their studies.</p>
+        <h1>1. Empathizing the user</h1>
+        <p>After several interviews we found that when it comes to learning, users remember the knowledge by <b>testing themselves by learning in groups, study partners and with experts</b>. This gives them confidence along with <b>long-term knowledge</b> and a boost to complete their studies.</p>
         <iframe title="Scientifically Proven Best Ways to Study Video"  src="https://www.youtube.com/embed/VJbKXmujI00?start=98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure>
 
@@ -98,8 +98,8 @@ const ExamproPage = () => (
         </figure>
 
         <figure className='white-bg'>
-        <h1>2. Defining Standpoint</h1>
-        <p>The standpoint is that we need to bridge the ExamPro team and the users <b>with a community.</b> The persona's goal is to learn and gain knowledge but to achieve that <b>long-term knowledge</b> we require the <b>users to have a stake</b> in the discussion, contribution, learning and be able to test themselves with experts (ExamPro Team), cloud learners, and study groups. We understand that we need to <b>build and maintain a community of learners</b> to enhance users for that <b>long-term knowledge.</b> </p>
+        <h1>2. Defining a standpoint</h1>
+        <p>The user's goal is to learn and gain knowledge but to achieve that <b>long-term knowledge</b> we require the <b>users to have a stake</b> in the discussion, contribution, learning and be able to test themselves with experts (ExamPro Team), cloud learners, and study groups.</p>
         </figure>
 
         <figure className='white-bg'>
@@ -114,7 +114,7 @@ const ExamproPage = () => (
         
 
         
-        <h1>Ideating Relevant Functionality</h1>
+        <h1>Ideating relevant functionality</h1>
         <p>Based on Maslow's Theory Of Hierarchy Need we organize user's need through each phase </p>
           <img className="img-shadow" src={Maslow} alt="Functionality Based on Maslow"/>
         </figure>

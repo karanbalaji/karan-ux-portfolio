@@ -25,8 +25,8 @@ const StaticPage = () => (
     
     <main className="project">
     <Announcement
-          title="View this project and kanban board on Github"
-          subtitle="You can view all the upcoming features and updates on Github."
+          title="View this project and kanban board on Github "
+          subtitle="You can view all the upcoming updates on Github. "
           link="https://github.com/karanbalaji/karan-ux-portfolio"
           secondsBeforeBannerShows={2}
 		  imageSource={Github}
