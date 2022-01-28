@@ -33,7 +33,7 @@ const IndexPage = () => (
           title="Watch my tech talk about A/B testing on AWS for UX engineers"
           subtitle="4 ways to do A/B testing using AWS."
           link="https://youtu.be/XlGw3iNBccc"
-          secondsBeforeBannerShows={5}
+          secondsBeforeBannerShows={3.5}
 		  imageSource={Youtube}
 		  daysToLive={0}
      				 />

@@ -30,7 +30,7 @@ const StaticPage = () => (
           link="https://github.com/karanbalaji/karan-ux-portfolio"
           secondsBeforeBannerShows={2}
 		  imageSource={Github}
-		  daysToLive={0}
+		  daysToLive={2}
      				 />
       <section className="project__description">
       
