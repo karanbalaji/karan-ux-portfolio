@@ -47,8 +47,8 @@ const StaticPage = () => (
         <ol>
         <li>Used Route53 to configure and buy a custom domain.</li>
         <li>Devloped this portfolio using Gatsby.js which is hosted on an AWS S3 Buckect</li>
-        <li>Configured CloudFront as CDN to distribute the content from the S3 bucket so that users don't access my S3 bucket link directly.</li>
-        <li>Finally, verifying the website to get a free SSL Certificate from Amazon Certificate Manager.</li>
+        <li>Configured CloudFront as CDN to distribute the content from the S3 bucket for quick loading and tight security (Users don't access my S3 bucket link directly)</li>
+        <li>Finally, verifying the website with a SSL Certificate from Amazon Certificate Manager.</li>
         </ol>
 
         <h2>Github Repo</h2>

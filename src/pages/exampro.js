@@ -18,13 +18,23 @@ import Maslow from "../images/portfolios/exampro/personas/maslow.png"
 //import TransitionLink from 'gatsby-plugin-transition-link'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
+// Announcement for this page
+import Announcement from 'react-announcement'
+import Discord from '../images/svg-icons/discord.png'
 
 const ExamproPage = () => (
   <Layout>
     <SEO title="ExamPro.co" />
     
     <main className="project">
-
+    <Announcement
+          title="Join the ExamPro discord community"
+          subtitle="I created this discord comminity to helps us better understand the users."
+          link="https://discord.gg/rTkejj4"
+          secondsBeforeBannerShows={3.5}
+		  imageSource={Discord}
+		  daysToLive={2}
+     				 />
       <section className="project__description">
       
 
