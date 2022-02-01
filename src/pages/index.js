@@ -50,8 +50,8 @@ const IndexPage = () => (
                 </TextLoop>
             </h2>
 			
-						<p style={{textAlign:"left"}}>My name is<span className="aside__important-text"> Karan Balaji</span> and I'm a global citizen <h1 className="aside__h1"> based in Toronto</h1>. I'm a <h1 className="aside__h1"> UX designer,  UX engineer & a <a href='https://www.credly.com/badges/6bef5107-ec38-4f72-956d-2296cdeeab75/public_url'target="blank">certified AWS solutions architect</a></h1> </p>
-						<p style={{textAlign:"left"}}>I bridge the gap between design and developers by working throughout the UX process and can make rapid prototypes with <b>Figma, Adobe XD, HTML, CSS, JS with popular design systems like Material Design & Amplify UI and document it on Git & <a href='https://github.com/karanbalaji'target="blank">Github</a></b></p>
+						<p style={{textAlign:"left"}}>My name is<span className="aside__important-text"> Karan Balaji</span> and I'm a global citizen <h1 className="aside__h1"> based in Toronto</h1>. I'm a <h1 className="aside__h1"> UX designer,  UX engineer and a <a href='https://www.credly.com/badges/6bef5107-ec38-4f72-956d-2296cdeeab75/public_url'target="blank">certified AWS solutions architect</a></h1> </p>
+						<p style={{textAlign:"left"}}>I bridge the gap between design and developers by working throughout the UX process and can make rapid prototypes with <b>Figma, Adobe XD, HTML, CSS, JS with popular design systems like Material Design and Amplify UI and document it on Git and <a href='https://github.com/karanbalaji'target="blank">Github</a></b></p>
 						<p style={{textAlign:"left"}}>Watch my tech talk about <a href='https://www.youtube.com/watch?v=XlGw3iNBccc&ab_channel=ExamPro'target="blank">A/B testing on AWS</a> for UX engineers</p>
 						<p style={{textAlign:"left"}}>In this portfolio which is built on Gatsby.js, I showcase every project with various methodologies such as <h1 className="aside__h1">design thinking</h1> using simple and sensational User Interface.</p>  
 						<p style={{textAlign:"left"}}>For professional inquiries <a className="aside__contact-link" href="mailto:karanarjunb@gmail.com">karanarjunb@gmail.com </a></p>

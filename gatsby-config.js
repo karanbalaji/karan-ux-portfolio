@@ -86,11 +86,22 @@ module.exports = {
         // Any additional create only fields (optional)
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "https://karanbalaji.tk",
+        cookieDomain: "https://karanbalaji.com?",
       },
     },
+      {
+        resolve: `gatsby-plugin-hotjar`,
+        options: {
+          includeInDevelopment: true, // optional parameter to include script in development
+          id: 1745332,
+          sv: 6,
+        },
+      },
+    
+    
 
     
 
   ],
+  
 }
