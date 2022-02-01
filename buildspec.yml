@@ -14,7 +14,7 @@ phases:
             - 'npm run build'    
     post_build:        
         commands:            
-            - 'aws s3 sync "public/" "s3://karan-ux-portfolio" --delete --acl "public-read"
+            - 'aws s3 sync "public/" "s3://<karan-ux-portfolio>" --delete --acl "public-read"
 'artifacts:    
     base-directory: public    
     files:        
