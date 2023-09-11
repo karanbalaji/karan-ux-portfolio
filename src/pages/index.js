@@ -26,7 +26,7 @@ const IndexPage = () => (
 	<Layout>
 		<SEO title="Portfolio" keywords={[`UX Designer`, `Ux design portfolio`, `UX portfolio`]} />
 
-		{
+		
 
 				<main className="index__inner-wrapper">
 					<Announcement
@@ -50,8 +50,10 @@ const IndexPage = () => (
                 </TextLoop>
             </h2>
 			
-						<p style={{textAlign:"left"}}>My name is<span className="aside__important-text"> Karan Balaji</span> and I'm <h1 className="aside__h1"> based in Toronto</h1>. I'm a <h1 className="aside__h1"> UX designer,  UX engineer and a <a href='https://www.credly.com/badges/6bef5107-ec38-4f72-956d-2296cdeeab75/public_url'target="blank">certified AWS solutions architect</a></h1> </p>
-						<p style={{textAlign:"left"}}>I bridge the gap between design and developers by working throughout the UX process and can make rapid prototypes with <b>Figma, Adobe XD, HTML, CSS, JS with popular design systems like Material Design and Amplify UI and document it on Git and <a href='https://github.com/karanbalaji'target="blank">Github</a></b></p>
+						<p style={{textAlign:"left"}}>I'm <b>Karan Balaji</b>, based in <b>Toronto</b>, and I specialize in <b>UX design and web optimization (Conversion Driven Design)</b>. My unique perspective includes a robust foundation as an <a href='https://www.credly.com/badges/6bef5107-ec38-4f72-956d-2296cdeeab75/public_url'target="blank"><b>certified AWS solutions architect</b></a>, which equips me to solve user and business challenges with technical solutions, effectively bridging the gap between design and development to create exceptional user experiences</p>
+						
+						<p style={{textAlign:"left"}}>As a <b>Product Designer</b>, I thrive in the intersection of <b>user-centric design and technical implementation</b>. I excel in crafting user interfaces and experiences using tools like <b>Figma, Adobe XD, and a range of front-end technologies including HTML, CSS, and JavaScript</b>. I'm well-versed in popular design systems like <b>Material Design and bootstrap</b>, which enables me to create consistent and intuitive interfaces.</p>
+						
 						<p style={{textAlign:"left"}}>Watch my tech talk about <a href='https://www.youtube.com/watch?v=XlGw3iNBccc&ab_channel=ExamPro'target="blank">A/B testing on AWS</a> for UX engineers</p>
 						<p style={{textAlign:"left"}}>In this portfolio which is built on Gatsby.js, I showcase every project with various methodologies such as <h1 className="aside__h1">design thinking</h1> using simple and sensational user interface.</p>  
 						<p style={{textAlign:"left"}}>For professional inquiries <a className="aside__contact-link" href="mailto:karanarjunb@gmail.com">karanarjunb@gmail.com </a></p>
@@ -69,6 +71,34 @@ const IndexPage = () => (
 					<article className="main">
 					
 						<section className="gallery">
+
+						<a
+  href="https://blog.karanbalaji.com/day-1-in-100daysofdesign-kickstarting-with-a-mentorship-session-with-hector-crespo"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="ExamPro.co"
+  className="ani-link"
+  style={{ background: 'none' }}
+>
+  <div className="parent">
+    <div className="child bg-100days">
+      <h2 className="gallery__title">100DaysOfDesign</h2>
+    </div>
+    <p
+      style={{
+        padding: '15px',
+        color: '#333',
+        lineHeight: 1.6,
+        fontWeight: 400,
+        textAlign: 'center',
+      }}
+    >
+      #100DaysOfDesign journey through various mentors 
+    </p>
+  </div>
+</a>
+
+
 						 
 						<AniLink cover bg="#333" to="/exampro/" direction="left" title="ExamPro.co">
 								<div className="parent">
@@ -129,7 +159,7 @@ const IndexPage = () => (
 					
 				</main>
 
-		}
+		
 
 	</Layout>
 )
