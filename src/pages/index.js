@@ -17,6 +17,8 @@ import TextLoop from "react-text-loop"
 // Announcement for this page
 import Announcement from 'react-announcement'
 import Youtube from '../images/svg-icons/youtube.png'
+import { MdOutlineOpenInNew } from "react-icons/md";
+
 
 
 
@@ -76,7 +78,7 @@ const IndexPage = () => (
   href="https://blog.karanbalaji.com/day-1-in-100daysofdesign-kickstarting-with-a-mentorship-session-with-hector-crespo"
   target="_blank"
   rel="noopener noreferrer"
-  title="ExamPro.co"
+  title="#100DaysOfDesign"
   className="ani-link"
   style={{ background: 'none' }}
 >
@@ -95,6 +97,7 @@ const IndexPage = () => (
     >
       #100DaysOfDesign journey through various mentors 
     </p>
+	<p style={{textAlign:'center', background:'#333', color:'#fff'}}> View Blog </p>
   </div>
 </a>
 
@@ -107,6 +110,7 @@ const IndexPage = () => (
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
 									 Improving ExamPro.co UX process using design thinking</p>
+									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View UX Project</p>
 								</div>
 						</AniLink>
 
@@ -117,6 +121,7 @@ const IndexPage = () => (
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
 									 Tweetup.io is a meeting app built using design thinking process</p>
+									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View Design Project</p>
 								</div>
 						</AniLink> 
 
@@ -128,6 +133,7 @@ const IndexPage = () => (
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
 									 Designing a better cultural experience</p>
+									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View CX Project</p>
 								</div>
 							</AniLink>
 							
@@ -138,6 +144,7 @@ const IndexPage = () => (
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
 									 Redesigning the UX for a charity</p>
+									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View UX Research Project</p>
 								</div>
 							</AniLink>
 
@@ -148,6 +155,7 @@ const IndexPage = () => (
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
 									 Architecting this portfolio on AWS </p>
+									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View Coding Project</p>
 								</div>
 							</AniLink>
 

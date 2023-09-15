@@ -121,7 +121,7 @@
         display: grid;
         grid-gap: 1rem;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-auto-rows: minmax(20vh, 200px);
+        grid-auto-rows: minmax(25vh, 200px);
         // play with values here:
         // grid-auto-rows: minmax(0, 1fr);
         // grid-auto-rows: minmax(0, 1fr);
