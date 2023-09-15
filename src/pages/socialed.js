@@ -35,7 +35,7 @@ const SocialedPage = () => (
         <h1>Tweetup.io</h1>
         <h2>Project Summary</h2>
         <p>
-        In 2016 i visioned Tweetup.io (Socialed) is a socializing app that brings people together to do an activity (bowling, coffee, etc.) which bonds people for effective interaction of ideas, emotions, experiences in groups or person without the use of messenger technology. It is targeted for users ages between 18-45 who maybe students & working professionals. Tweetup.io uniqueness is that it is designed specifically for people who want to find another people/group for socializing in person.
+        I built a side project called Tweetup.io (Socialed) which is a socializing app that brings people together to do an activity (bowling, coffee, etc.) which bonds people for effective interaction of ideas, emotions, experiences in groups or person without the use of messenger technology. It is targeted for users ages between 18-45 who maybe students & working professionals. Tweetup.io uniqueness is that it is designed specifically for people who want to find another people/group for socializing in person.
         </p>
         <h2>Pitch Summary</h2>
         <p>
@@ -60,12 +60,9 @@ const SocialedPage = () => (
       
 
       
-      <section className="project__logo"><Logo /></section>
+      <section className="project__logo"> <video className="img-shadow " src={Prototype}  autoplay="" loop="" alt="Prototype Video" controls /></section>
 
       <article className="project__content">
-
-      
-
         <figure className='white-bg'>
         <h1>1. Empathizing The User</h1>
         <p>This is to understand the psychology of human & their behaviour in social groups. Based on this research we understand how humans are genetically programmed to live in groups for thousands of years & the modern lifestyle has forced us to practice individuality </p>

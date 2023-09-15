@@ -17,7 +17,7 @@ const Image = () => (
   <StaticQuery
     query={graphql`
       query {
-        avatar: file(relativePath: { eq: "karan-pic.jpeg" }) {
+        avatar: file(relativePath: { eq: "karan-pic.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 400) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -26,7 +26,7 @@ const Image = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.avatar.childImageSharp.fluid} alt="Luis Cestou posing for the camera LOL." className="aside__img-wrapper" />}
+    render={data => <Img fluid={data.avatar.childImageSharp.fluid} alt="Karan Balaji Pic" className="aside__img-wrapper" />}
   />
 )
 export default Image

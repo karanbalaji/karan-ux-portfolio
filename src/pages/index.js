@@ -155,7 +155,7 @@ const IndexPage = () => (
 									</div>
 									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
 									 Architecting this portfolio on AWS </p>
-									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View Coding Project</p>
+									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View this Portfolio's Code On GitHub</p>
 								</div>
 							</AniLink>
 
