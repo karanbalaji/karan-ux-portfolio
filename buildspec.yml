@@ -13,4 +13,3 @@ phases:
   post_build:
     commands:
       - npm run deploy-aws
-
