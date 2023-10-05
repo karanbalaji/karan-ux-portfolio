@@ -45,13 +45,6 @@ module.exports = {
         include: /svg-icons/
       }
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "G-L5QR6PCFCF",
-      },
-    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     'gatsby-plugin-offline',
@@ -65,30 +58,40 @@ module.exports = {
         hostname: "https://karanbalaji.com/",
       },
   },
+
   {
-    resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "G-L5QR6PCFCF",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
+    resolve: `gatsby-plugin-google-gtag`,
+    options: {
+      // You can add multiple tracking ids and a pageview event will be fired for all of them.
+      trackingIds: [
+        "G-L5QR6PCFCF", // Google Analytics / GA
+        "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+        "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+      ],
+      // This object gets passed directly to the gtag config command
+      // This config will be shared across all trackingIds
+      gtagConfig: {
+        optimize_id: "OPT_CONTAINER_ID",
+        anonymize_ip: true,
+        cookie_expires: 0,
+      },
+      // This object is used for configuration specific to this plugin
+      pluginConfig: {
+        // Puts tracking script in the head instead of the body
         head: true,
-        // Setting this parameter is optional
-        //anonymize: true,
         // Setting this parameter is also optional
-        //respectDNT: true,
+        respectDNT: true,
         // Avoids sending pageview hits from custom paths
-        //exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Enables Google Optimize using your container Id
-        //optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
-        // Enables Google Optimize Experiment ID
-        //experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
-        // Set Variation ID. 0 for original 1,2,3....
-        //variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "https://karanbalaji.com?",
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Defaults to https://www.googletagmanager.com
+        origin: "https://karanbalaji.com/",
+        // Delays processing pageview events on route update (in milliseconds)
+        delayOnRouteUpdate: 0,
       },
     },
+  },
+
+
       {
         resolve: `gatsby-plugin-hotjar`,
         options: {
