@@ -49,7 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-62005347-1",
+        trackingId: "G-L5QR6PCFCF",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -68,7 +68,7 @@ module.exports = {
   {
     resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-67853643-6",
+        trackingId: "G-L5QR6PCFCF",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: true,
         // Setting this parameter is optional
@@ -95,6 +95,12 @@ module.exports = {
           includeInDevelopment: true, // optional parameter to include script in development
           id: 1745332,
           sv: 6,
+        },
+      },
+      {
+        resolve: `gatsby-plugin-google-adsense`,
+        options: {
+          publisherId: `ca-pub-6055502668927810`
         },
       },
     
