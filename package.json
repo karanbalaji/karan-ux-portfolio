@@ -21,6 +21,7 @@
         "gatsby-plugin-sharp": "2.2.12",
         "gatsby-plugin-sitemap": "^2.0.6",
         "gatsby-plugin-transition-link": "^1.5.1",
+        "gatsby-plugin-vwo": "^1.0.0",
         "gatsby-source-filesystem": "^2.2.2",
         "gatsby-transformer-sharp": "^2.1.14",
         "gsap": "^2.1.2",

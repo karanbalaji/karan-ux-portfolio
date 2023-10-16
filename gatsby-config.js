@@ -106,6 +106,14 @@ module.exports = {
           publisherId: `ca-pub-6055502668927810`
         },
       },
+
+      {
+        resolve: `gatsby-plugin-vwo`,
+        options: {
+          accountId: '783007',
+          async: false // Defaults to `true`
+        },
+      },
     
     
 
