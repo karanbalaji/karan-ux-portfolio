@@ -73,36 +73,16 @@ const IndexPage = () => (
 					<article className="main">
 					
 						<section className="gallery">
-
-						<a
-  href="https://blog.karanbalaji.com/day-1-in-100daysofdesign-kickstarting-with-a-mentorship-session-with-hector-crespo"
-  target="_blank"
-  rel="noopener noreferrer"
-  title="#100DaysOfDesign"
-  className="ani-link"
-  style={{ background: 'none' }}
->
-  <div className="parent">
-    <div className="child bg-100days">
-      <h2 className="gallery__title">100DaysOfDesign</h2>
-    </div>
-    <p
-      style={{
-        padding: '15px',
-        color: '#333',
-        lineHeight: 1.6,
-        fontWeight: 400,
-        textAlign: 'center',
-      }}
-    >
-      #100DaysOfDesign journey through various mentors 
-    </p>
-	<p style={{textAlign:'center', background:'#333', color:'#fff'}}> View Blog </p>
-  </div>
-</a>
-
-
-						 
+						<AniLink cover bg="#333" to="/socialed/" direction="left" title="socialed">
+								<div className="parent">
+									<div className="child bg-socialed">
+										<h2 className="gallery__title">Tweetup</h2>
+									</div>
+									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
+									 Tweetup.io is a meeting app built using design thinking process</p>
+									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View End-to-End UX Design Process</p>
+								</div>
+						</AniLink> 
 						<AniLink cover bg="#333" to="/exampro/" direction="left" title="ExamPro.co">
 								<div className="parent">
 									<div className="child bg-exampro">
@@ -113,17 +93,7 @@ const IndexPage = () => (
 									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View UX Improvements</p>
 								</div>
 						</AniLink>
-
-						  <AniLink cover bg="#333" to="/socialed/" direction="left" title="socialed">
-								<div className="parent">
-									<div className="child bg-socialed">
-										<h2 className="gallery__title">Tweetup</h2>
-									</div>
-									<p style={{padding:'15px',color: '#333',lineHeight:1.6,fontWeight:400,textAlign:"center"}}>
-									 Tweetup.io is a meeting app built using design thinking process</p>
-									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View End-to-End UX Design Process</p>
-								</div>
-						</AniLink> 
+											
 
 							<AniLink paintDrip hex="#333" to="/centennial-experience/" title="Centennial Experience">
 								<div className="parent">
@@ -158,6 +128,32 @@ const IndexPage = () => (
 									 <p style={{textAlign:'center', background:'#333', color:'#fff'}}> View this Portfolio's Code On GitHub</p>
 								</div>
 							</AniLink>
+							<a
+  href="https://blog.karanbalaji.com/day-1-in-100daysofdesign-kickstarting-with-a-mentorship-session-with-hector-crespo"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="#100DaysOfDesign"
+  className="ani-link"
+  style={{ background: 'none' }}
+>
+  <div className="parent">
+    <div className="child bg-100days">
+      <h2 className="gallery__title">100DaysOfDesign</h2>
+    </div>
+    <p
+      style={{
+        padding: '15px',
+        color: '#333',
+        lineHeight: 1.6,
+        fontWeight: 400,
+        textAlign: 'center',
+      }}
+    >
+      #100DaysOfDesign journey through various mentors 
+    </p>
+	<p style={{textAlign:'center', background:'#333', color:'#fff'}}> View Blog </p>
+  </div>
+</a>
 
 							
 												
