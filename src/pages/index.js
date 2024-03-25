@@ -51,13 +51,17 @@ const IndexPage = () => (
                     <span>வணக்கம்</span>
                 </TextLoop>
             </h2>
-			
-						<p style={{textAlign:"left"}}>I'm <b>Karan Balaji</b>, based in <b>Toronto</b>, and I specialize in <b>UX design and web optimization (Conversion Driven Design)</b>. My unique perspective includes a robust foundation as an <a href='https://www.credly.com/badges/6bef5107-ec38-4f72-956d-2296cdeeab75/public_url'target="blank"><b>certified AWS solutions architect</b></a>, which equips me to solve user and business challenges with technical solutions, effectively bridging the gap between design and development to create exceptional user experiences</p>
+					<h4 style={{fontSize: "18px", textAlign:"left" }}>Greetings From Toronto:</h4>
+						<p style={{textAlign:"left"}}>
+						Hello! I’m <b>Karan Balaji</b>. Based in Toronto, I blend UX Design with Web Optimization, focusing on creating engaging, conversion-driven digital experiences. My expertise bridges the gap between design and technology, thanks to my background as a <a href="https://www.credly.com/badges/6bef5107-ec38-4f72-956d-2296cdeeab75/public_url"><b>certified AWS Solutions Architect</b></a>.
+
+						</p>
+
+						<h4 style={{fontSize: "18px", textAlign:"left" }}>My Expertise:</h4>
+						<p style={{textAlign:"left"}}>Crafting User Experiences. Utilizing tools like <b>Figma, Adobe XD,</b> and front-end technologies (<b>HTML, CSS, JavaScript</b>), I design intuitive interfaces that stand on the shoulders of giants like <b>Material Design and Bootstrap</b>.</p>
 						
-						<p style={{textAlign:"left"}}>As a <b>Product Designer</b>, I thrive in the intersection of <b>user-centric design and technical implementation</b>. I excel in crafting user interfaces and experiences using tools like <b>Figma, Adobe XD, and a range of front-end technologies including HTML, CSS, and JavaScript</b>. I'm well-versed in popular design systems like <b>Material Design and bootstrap</b>, which enables me to create consistent and intuitive interfaces.</p>
-						
-						<p style={{textAlign:"left"}}>Watch my tech talk about <a href='https://www.youtube.com/watch?v=XlGw3iNBccc&ab_channel=ExamPro'target="blank">A/B testing on AWS</a> for UX engineers</p>
-						<p style={{textAlign:"left"}}>In this portfolio which is built on Gatsby.js, I showcase every project with various methodologies such as <h1 className="aside__h1">design thinking</h1> using simple and sensational user interface.</p>  
+						<h4 style={{fontSize: "18px", textAlign:"left" }}>Continuous Learning:</h4>
+						<p style={{textAlign:"left"}}> Embracing Continuous Learning & AI. As a passionate advocate for perpetual growth, I highlight my journey with the <b>#100DaysOfDesign <a href="https://discord.gg/ecSaN5hMbY" target="_blank">(Discord)</a></b> challenge at <b>blog.karanbalaji.com</b>. There, I discuss how UX design’s evolution towards generalism—endorsed by visionaries like <b><a href="https://blog.karanbalaji.com/day-27-navigating-the-future-of-ux-specialist-vs-generalist-insights-with-jakob-nielsen-sarah-gibbons" target="_blank">Jakob Nielsen (My Article: UX Generalist vs Specialist)</a></b> and <b><a href="https://blog.karanbalaji.com/day-31-don-norman-on-designing-beyond-aesthetics-embracing-a-humanitarian-centric-and-generalist-future" target="_blank">Don Norman (Designing Beyond Aesthetics)</a></b>—is significantly enhanced by AI, bridging the gap in our knowledge and enabling the creation of more intuitive, humanitarian-centered designs.</p>
 						<p style={{textAlign:"left"}}>For professional inquiries <a className="aside__contact-link" href="mailto:karanarjunb@gmail.com">karanarjunb@gmail.com </a></p>
 						
 						<div className="aside__social-icons">
@@ -129,7 +133,7 @@ const IndexPage = () => (
 								</div>
 							</AniLink>
 							<a
-  href="https://blog.karanbalaji.com/day-1-in-100daysofdesign-kickstarting-with-a-mentorship-session-with-hector-crespo"
+  href="https://blog.karanbalaji.com/day-27-navigating-the-future-of-ux-specialist-vs-generalist-insights-with-jakob-nielsen-sarah-gibbons"
   target="_blank"
   rel="noopener noreferrer"
   title="#100DaysOfDesign"
@@ -138,7 +142,7 @@ const IndexPage = () => (
 >
   <div className="parent">
     <div className="child bg-100days">
-      <h2 className="gallery__title">100DaysOfDesign</h2>
+      <h2 className="gallery__title">#100DaysOfDesign</h2>
     </div>
     <p
       style={{
