@@ -18,7 +18,7 @@ import TextLoop from "react-text-loop"
 import Announcement from 'react-announcement'
 import Youtube from '../images/svg-icons/youtube.png'
 import { MdOutlineOpenInNew } from "react-icons/md";
-
+import AdpListWidget from '../components/AdpListWidget';
 
 
 
@@ -159,6 +159,7 @@ const IndexPage = () => (
   </div>
 </a>
 
+<AdpListWidget />
 							
 												
 						</section>
